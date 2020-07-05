@@ -12,30 +12,35 @@ To use this module clone into your scripts of python or *pip install Instabot*
 
 > ### Login into instagram
 
- ```from Instabot import *
+ ```1
+    from Instabot import *
     # Used to login without accepting to turn on notifications or save informations
     # User is recommended to login with this option always
     login_no_info(username,password)
  ```
 
- ```#used to open and user is allowed to select the options for saving info and for notifications
+ ```2
+    #used to open and user is allowed to select the options for saving info and for notifications
     opens(username,password)
  ```
 
- ```#opens with post notfications while you're surfing in Instagram
+ ```3
+    #opens with post notfications while you're surfing in Instagram
     # Not recommended unless user is less active on Instgram
     login_info(username,password):
 ```
 
 > ### Logout of Instagram
 
- ```#logs out by clearing all cookies in your test browser
+ ```4
+    #logs out by clearing all cookies in your test browser
     logout()
  ```
 
 > ### Basic functions
 
- ```like() #to like post
+ ```5
+    like() #to like post
     unlike() #to unlike post. Works only when you like post or it perfoms like function
     screentime(int value) # Adjust the time you are on instagram
     explore() # Opens explore
@@ -58,7 +63,8 @@ To use this module clone into your scripts of python or *pip install Instabot*
 
 ### Code Snippet
 
-```from Instabot import *
+```6
+    from Instabot import *
     x = login_no_info("xyz@gmail.com","########")
     explore()
     home()
