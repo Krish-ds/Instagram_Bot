@@ -2,7 +2,7 @@
 
 This **Insta_bot** module is used to *login, like, unlike, follow, unfollow, logout, open post in your profile and in explore section* of the instagram in your web.
 
-Make sure that your system has **Chormedriver** or install it by clicking [here]("https://chromedriver.chromium.org/downloads")
+Make sure that your system has **Chormedriver** or install it by clicking [here](https://chromedriver.chromium.org/downloads)
 
 >__**Note**__: This module uses selenium webdriver. Based on your  chrome version select the chromedriver installation options and make sure that chromedriver is installed in path **("C:\Program Files\chromedriver.exe")**
 
