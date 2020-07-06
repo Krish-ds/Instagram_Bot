@@ -11,7 +11,7 @@ setuptools.setup(
     description="A small Instagram bot package that uses some basic functions. Download and have fun",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Krish-ds/Instagram_Bot",
+    url="https://github.com/Krish-ds/Instagram_Bot/releases/tag/1.2",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
