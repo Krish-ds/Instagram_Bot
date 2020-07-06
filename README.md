@@ -8,12 +8,12 @@ Make sure that your system has **Chormedriver** or install it by clicking [here]
 
 ## Module Usage
 
-To use this module clone into your scripts of python or *pip install Instabot*
+To use this module clone into your scripts of python or *pip install Insta_bot*
 
 > ### Login into instagram
 
  ```1
-    from Instabot import *
+    from Insta_bot import *
     # Used to login without accepting to turn on notifications or save informations
     # User is recommended to login with this option always
     login_no_info(username,password)
@@ -64,7 +64,7 @@ To use this module clone into your scripts of python or *pip install Instabot*
 ### Code Snippet
 
 ```6
-    from Instabot import *
+    from Insta_bot import *
     x = login_no_info("xyz@gmail.com","########")
     explore()
     home()
