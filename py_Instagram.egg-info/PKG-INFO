@@ -12,7 +12,7 @@ Description: # Instagram_Bot
         
         Make sure that your system has **Chormedriver** or install it by clicking [here](https://chromedriver.chromium.org/downloads)
         
-        >__**Note**__: This module uses selenium webdriver. Based on your  chrome version select the chromedriver installation options and make sure that chromedriver is installed in path **("C:\Program Files\chromedriver.exe")**
+        >__**Note**__: This module uses selenium webdriver. Based on your  chrome version select the chromedriver installation options and make sure that chromedriver is installed in path **(C:\Program Files\chromedriver.exe)**
         
         ## Module Usage
         
@@ -54,7 +54,7 @@ Description: # Instagram_Bot
             explore() # Opens explore
             first_post() # Opens first post in explore. Must be used after explore
             follow() # Follows the account opened using first_post()
-            unfollow() # Musyt follow to unfollow the account. Used after first_post() and follow() commandss
+            unfollow() # Musyt follow to unfollow the account. Used after first_post() and follow() commands
             exit_post() # Closes the post opened by using first_post()
             profile() # Opens profile
             close_all() # Closes the chrome window by deleting all cookies

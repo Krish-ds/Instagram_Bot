@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py-Instagram", # Replace with your own username
-    version="0.0.1",
+    version="0.1.2",
     author="Gokula Krishna",
     author_email="trgokul99@gmail.com",
     description="A small Instagram bot package that uses some basic functions. Download and have fun",
