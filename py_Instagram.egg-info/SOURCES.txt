@@ -1,8 +1,0 @@
-README.md
-setup.py
-pyInstagram/__init__.py
-pyInstagram/pyInstagram.py
-py_Instagram.egg-info/PKG-INFO
-py_Instagram.egg-info/SOURCES.txt
-py_Instagram.egg-info/dependency_links.txt
-py_Instagram.egg-info/top_level.txt

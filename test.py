@@ -1,4 +1,4 @@
-from pyInstagram import *
+from pyInstaBot import *
 x = login_no_info("xyz@gmail.com","########")
 explore()
 home()
