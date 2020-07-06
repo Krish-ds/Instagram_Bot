@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="py-Instagram", # Replace with your own username
+    name="pyInstagram-0.2", # Replace with your own username
     version="0.1.0",
     author="Gokula Krishna",
     author_email="trgokul99@gmail.com",
