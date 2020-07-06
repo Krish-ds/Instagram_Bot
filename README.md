@@ -22,7 +22,7 @@ pip install pyInstaBot
 
 In-order to make sure that pyInstaBot works properly after installation type on python shell as
 
-```1
+```python
 >>> import pyInstaBot
 ```
 
@@ -30,19 +30,19 @@ In-order to make sure that pyInstaBot works properly after installation type on 
 
 > ### Login into instagram
 
- ```1
+ ```python
 from pyInstaBot import *
 # Used to login without accepting to turn on notifications or save informations
 #User is recommended to login with this option always
 login_no_info(username,password)
  ```
 
- ```2
+ ```python
 #used to open and user is allowed to select the options for saving info and for notifications
 opens(username,password)
  ```
 
- ```3
+ ```python
 #opens with post notfications while you're surfing in Instagram
 # Not recommended unless user is less active on Instgram
 login_info(username,password):
@@ -50,14 +50,14 @@ login_info(username,password):
 
 > ### Logout of Instagram
 
- ```4
+ ```python
 #logs out by clearing all cookies in your test browser
 logout()
  ```
 
 > ### Basic functions
 
- ```5
+ ```python
 like() #to like post
 unlike() #to unlike post. Works only when you like post or it perfoms like function
 screentime(int value) # Adjust the time you are on instagram
@@ -81,7 +81,7 @@ msg() # Opens messages
 
 > ### Example Code
 
-```6
+```python
 from pyInstaBot import *
 x = login_no_info("xyz@gmail.com","########")
 explore()
