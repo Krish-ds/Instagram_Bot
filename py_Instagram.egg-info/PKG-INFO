@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: py-Instagram
-Version: 0.1.2
+Version: 0.1.0
 Summary: A small Instagram bot package that uses some basic functions. Download and have fun
-Home-page: https://github.com/Krish-ds/Instagram_Bot/releases/tag/1.2
+Home-page: https://github.com/Krish-ds/Instagram_Bot
 Author: Gokula Krishna
 Author-email: trgokul99@gmail.com
 License: UNKNOWN
