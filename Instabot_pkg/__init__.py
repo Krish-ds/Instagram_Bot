@@ -1,1 +1,1 @@
-from Instabot import *
+from Instabot_pkg.Insta_bot import *
