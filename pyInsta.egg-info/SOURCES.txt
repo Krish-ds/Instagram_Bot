@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyInsta/__init__.py
+pyInsta/pyInsta.py
+pyInsta.egg-info/PKG-INFO
+pyInsta.egg-info/SOURCES.txt
+pyInsta.egg-info/dependency_links.txt
+pyInsta.egg-info/top_level.txt
