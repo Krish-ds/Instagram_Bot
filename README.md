@@ -1,6 +1,6 @@
 # Instagram_Bot
 
-This **Insta_bot** module is used to *login, like, unlike, follow, unfollow, logout, open post in your profile and in explore section* of the instagram in your web.
+This **Insta** module is used to *login, like, unlike, follow, unfollow, logout, open post in your profile and in explore section* of the instagram in your web.
 
 Make sure that your system has **Chormedriver** or install it by clicking [here](https://chromedriver.chromium.org/downloads)
 
@@ -8,12 +8,12 @@ Make sure that your system has **Chormedriver** or install it by clicking [here]
 
 ## Module Usage
 
-To use this module clone into your scripts of python or *pip install Insta_bot*
+To use this module clone into your scripts of python or *pip install Insta*
 
 > ### Login into instagram
 
  ```1
-    from Insta_bot import *
+    from Insta import *
     # Used to login without accepting to turn on notifications or save informations
     # User is recommended to login with this option always
     login_no_info(username,password)
@@ -64,7 +64,7 @@ To use this module clone into your scripts of python or *pip install Insta_bot*
 ### Code Snippet
 
 ```6
-    from Insta_bot import *
+    from Insta import *
     x = login_no_info("xyz@gmail.com","########")
     explore()
     home()

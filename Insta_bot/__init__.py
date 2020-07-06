@@ -1,1 +1,0 @@
-from Insta_bot.Insta_bot import *
