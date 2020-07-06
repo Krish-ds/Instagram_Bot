@@ -26,7 +26,7 @@ In-order to make sure that pyInstaBot works properly after installation type on 
 >>> import pyInstaBot
 ```
 
- Now you should see a Chrome browser should open on with instagram login page
+ Now you should see a Chrome browser open with instagram login page
 
 > ### Login into instagram
 
@@ -79,7 +79,7 @@ msg() # Opens messages
 
  ```
 
-> ### Example Code 
+> ### Example Code
 
 ```6
 from pyInstaBot import *
