@@ -91,4 +91,6 @@ msg()
 
 ```
 
+> Email ID can also be given instead of your username
+
 #### Note: This module is for just demo purpose of how you can use instagram via python. Use it carefully. The developer of this module is not responsible for any of users mistake or for any loss of data
