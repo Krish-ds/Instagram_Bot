@@ -1,1 +1,0 @@
-from pyInstagram.pyInstagram import *
