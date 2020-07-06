@@ -46,7 +46,7 @@ To use this module clone into your scripts of python or *pip install py-Instagra
     explore() # Opens explore
     first_post() # Opens first post in explore. Must be used after explore
     follow() # Follows the account opened using first_post()
-    unfollow() # Musyt follow to unfollow the account. Used after first_post() and follow() commandss
+    unfollow() # Musyt follow to unfollow the account. Used after first_post() and follow() commands
     exit_post() # Closes the post opened by using first_post()
     profile() # Opens profile
     close_all() # Closes the chrome window by deleting all cookies
