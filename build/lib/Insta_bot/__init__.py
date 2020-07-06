@@ -1,0 +1,1 @@
+from Instabot_pkg.Insta_bot import *
