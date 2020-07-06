@@ -4,7 +4,7 @@ This **pyInstagram** module is used to *login, like, unlike, follow, unfollow, l
 
 Make sure that your system has **Chormedriver** or install it by clicking [here](https://chromedriver.chromium.org/downloads)
 
->__**Note**__: This module uses selenium webdriver. Based on your  chrome version select the chromedriver installation options and make sure that chromedriver is installed in path **("C:\Program Files\chromedriver.exe")**
+>__**Note**__: This module uses selenium webdriver. Based on your  chrome version select the chromedriver installation options and make sure that chromedriver is installed in path **(C:\Program Files\chromedriver.exe)**
 
 ## Module Usage
 
