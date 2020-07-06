@@ -8,7 +8,9 @@ Make sure that your system has **Chormedriver** or install it by clicking [here]
 
 ## Module Usage
 
-To use this module clone into your scripts of python or *pip install py-Instagram*
+To use this module clone into your python scripts or *pip install py-Instagram*
+
+If you don't have selenium webdriver pre-installed on your computer, then install using *pip install selenium* command or click [here](https://www.selenium.dev/downloads/)
 
 > ### Login into instagram
 
