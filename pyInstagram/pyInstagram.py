@@ -202,6 +202,7 @@ def ref():
     time.sleep(randint(2,6))
 def screentime(x):
     time.sleep(x) # Adjust your #SCREENTIME# on Instagram... 
+    logout()
 def close_all():
     driver.delete_all_cookies()#Deletes all cookies on exit 
     driver.quit()
