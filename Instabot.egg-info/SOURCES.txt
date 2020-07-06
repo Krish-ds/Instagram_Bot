@@ -1,8 +1,0 @@
-README.md
-setup.py
-Instabot.egg-info/PKG-INFO
-Instabot.egg-info/SOURCES.txt
-Instabot.egg-info/dependency_links.txt
-Instabot.egg-info/top_level.txt
-Instabot_pkg/Instabot.py
-Instabot_pkg/__init__.py
