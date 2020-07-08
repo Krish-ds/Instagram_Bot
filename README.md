@@ -45,7 +45,7 @@ opens(username,password)
  ```python
 #opens with post notfications while you're surfing in Instagram
 # Not recommended unless user is less active on Instgram
-login_info(username,password):
+login_info(username,password)
 ```
 
 > ### Logout of Instagram
@@ -75,7 +75,6 @@ init_scroll() # Home scroll
 pd() # Page down
 pu() # Page up
 home() # Opens home
-msg() # Opens messages
 
  ```
 
@@ -83,11 +82,12 @@ msg() # Opens messages
 
 ```python
 from pyInstaBot import *
-x = login_no_info("xyz@gmail.com","########")
+x = login_no_info(username,password)
 explore()
 home()
 pofile()
-msg()
+home()
+logout()
 
 ```
 

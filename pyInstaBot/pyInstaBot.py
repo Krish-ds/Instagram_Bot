@@ -72,7 +72,7 @@ def logout():
         search = driver.find_element_by_xpath('/html/body/div[4]/div/div/div/div/button[9]').click()
         time.sleep(randint(2,4))
     except:
-        raise NotImplementedError('exit_post command not implenented. Logout manually and try again')
+        raise NotImplementedError('exit_post command not implenented or setting command is enabled')
 def like(): 
     try:
         search = driver.find_element_by_class_name('wpO6b ').click()
