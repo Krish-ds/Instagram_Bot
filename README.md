@@ -1,6 +1,6 @@
 # Instagram_Bot
 
-This **pyInstaBot** module is used to *login, like, unlike, follow, unfollow, logout, open post in your profile and in explore section* of the instagram in your web.
+This **instabotpy** is a module that is used to *login, like, unlike, follow, unfollow, logout, open post in your profile and in explore section* of the instagram in your web.
 
 Make sure that your system has **Chormedriver** or install it by clicking [here](https://chromedriver.chromium.org/downloads)
 
@@ -17,13 +17,13 @@ pip install selenium
 To use this module clone into your python scripts or
 
 ```1
-pip install pyInstaBot
+pip install instabotpy
 ```
 
-In-order to make sure that pyInstaBot works properly after installation type on python shell as
+In-order to make sure that instabotpy works properly after installation type on python shell as
 
 ```python
->>> import pyInstaBot
+>>> import instabotpy
 ```
 
  Now you should see a Chrome browser open with instagram login page
@@ -31,7 +31,7 @@ In-order to make sure that pyInstaBot works properly after installation type on 
 > ### Login into instagram
 
  ```python
-from pyInstaBot import *
+from instabotpy import *
 # Used to login without accepting to turn on notifications or save informations
 #User is recommended to login with this option always
 login_no_info(username,password)
@@ -81,7 +81,7 @@ home() # Opens home
 > ### Example Code
 
 ```python
-from pyInstaBot import *
+from instabotpy import *
 x = login_no_info(username,password)
 explore()
 home()

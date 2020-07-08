@@ -1,0 +1,1 @@
+from instabotpy.instabotpy import *
