@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyInstaBot", # Replace with your own username
+    name="pyInsta-Bot", # Replace with your own username
     version="1.0.0",
     author="Gokula Krishna",
     author_email="trgokul99@gmail.com",
