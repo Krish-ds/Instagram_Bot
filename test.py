@@ -1,6 +1,13 @@
 from pyInstaBot import *
-x = login_no_info("xyz@gmail.com","########")
+import time
+x = login_no_info("roboclub2020@gmail.com","r0bo@2020")
+time.sleep(4)
+home()
 explore()
 home()
 profile()
-msg()
+home()
+explore()
+logout()
+close_all()
+

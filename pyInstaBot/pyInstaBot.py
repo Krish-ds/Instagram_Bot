@@ -72,17 +72,7 @@ def logout():
         search = driver.find_element_by_xpath('/html/body/div[4]/div/div/div/div/button[9]').click()
         time.sleep(randint(2,4))
     except:
-        exit_post()
-        time.sleep(randint(2,5))
-         # Goto profile
-        search = driver.find_element_by_xpath('/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[5]').click()
-        time.sleep(randint(2,6))
-        # Click settings
-        search = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/header/section/div[1]/div/button').click()
-        time.sleep(randint(1,3))
-        # Logout
-        search = driver.find_element_by_xpath('/html/body/div[4]/div/div/div/div/button[9]').click()
-        time.sleep(randint(2,4))
+        raise NotImplementedError('exit_post command not implenented. Logout manually and try again')
 def like(): 
     try:
         search = driver.find_element_by_class_name('wpO6b ').click()
@@ -131,14 +121,6 @@ def home():
     try:
         search = driver.find_element_by_xpath('/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[1]').click()
         time.sleep(randint(5,10))
-    except:
-        logout()
-        close_all()
-        raise NotImplementedError('You have selected a post or settings option is enabled')
-def msg():
-    try:
-        search = driver.find_element_by_xpath('/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[2]').click()
-        time.sleep(randint(3,8))
     except:
         logout()
         close_all()
@@ -203,6 +185,7 @@ def ref():
 def screentime(x):
     time.sleep(x) # Adjust your #SCREENTIME# on Instagram... 
     logout()
+    close_all()
 def close_all():
     driver.delete_all_cookies()#Deletes all cookies on exit 
     driver.quit()
